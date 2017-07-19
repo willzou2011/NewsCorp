@@ -2,15 +2,18 @@ package com.example.newscorp.truncate.service;
 
 /**
  *
- * Created by willzou on 7/19/17.
+ * Author: willzou on 7/19/17.
  */
 public class StringUtils {
 
     public static final String TRUNCATE_INSERT_TEXT = " ... (truncated) ... ";
+    public static final int DEFAULT_TRUNCATE_LENGTH = 250;
 
     /*
-    Assumption, if the text length is longer then insert text and is even,
-    then the part after insertion will be 1 letter longer than the part before insertion
+
+    Assumption,
+    if the text length is even, the part after insertion will be 1 letter longer than the part before insertion.
+    if the text length is odd, the part after insertion will be same as the part before insertion.
      */
 
     public static String truncate(String originalValue, int limit){
