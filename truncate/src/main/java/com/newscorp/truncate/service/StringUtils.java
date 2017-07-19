@@ -2,7 +2,8 @@ package com.newscorp.truncate.service;
 
 /**
  *
- * Author: willzou on 7/19/17.
+ * Author: willzou
+ * Created on 7/19/17.
  */
 public class StringUtils {
 

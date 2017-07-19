@@ -2,9 +2,10 @@ package com.newscorp.truncate.service;
 
 import org.junit.Test;
 import static junit.framework.TestCase.assertEquals;
-import static junit.framework.TestCase.assertTrue;
+
 /**
- * Created by willzou on 7/19/17.
+ * Author: willzou
+ * Created on 7/19/17.
  */
 public class StringUtilsTest {
 

@@ -10,15 +10,15 @@ import org.springframework.web.bind.annotation.RestController;
 import javax.servlet.http.HttpServletRequest;
 
 /**
- * Created by willzou on 7/19/17.
+ * Author: willzou
+ * Created on 7/19/17.
  */
 
 @RestController
 public class SubscriptionController {
 
-
-
     Logger logger = LoggerFactory.getLogger(this.getClass());
+
     @RequestMapping(value = "/subscribe", method = RequestMethod.GET)
     public String subscribe(HttpServletRequest request){
 
