@@ -16,11 +16,6 @@ HTTP RESPONSE: String
 
 Log: truncated orderDetails
 
-Example
 
-http://localhost:8080/subscribe?orderDetails=helloSydneydkldjkgjkrejglksjglsknlfshmlfkhdflhd
 
-Response: not specified
 
-Log will has text like:
-he ... (truncated) ... hd
